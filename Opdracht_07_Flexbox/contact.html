@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> Basic HTML contact form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="https://google.com">Link naar Google</a>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <form name="contact-page-form" method="POST" data-netlify="true">
+      <p>
+        <label>First and lastname:<input type="text" name="name" /></label>
+      </p>
+
+      <p>
+        <label>Email address:<input type="email" name="email" /></label>
+      </p>
+
+      <p>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </p>
+
+      <p>
+        <label>Age:<input type="number" /></label>
+      </p>
+
+      <p>
+        <label>Date of birth:<input type="date" /></label>
+      </p>
+
+      <p>
+        Gender: <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="non-binary">
+        <label for="non-binary">Non-binary</label>
+      </p>
+
+      <p>
+        Favourite cuisine: <br>
+        <input type="checkbox" id="French" name="french" value="french">
+        <label for="French"> French</label><br>
+        <input type="checkbox" id="italian" name="italian" value="italian">
+        <label for="italian"> Italian</label><br>
+        <input type="checkbox" id="spanish" name="spanish" value="spanish">
+        <label for="spanish"> Spanish</label><br>
+        <input type="checkbox" id="arabic" name="arabic" value="arabic">
+        <label for="arabic"> Arabic</label>
+      </p>
+
+      <p>
+        <label for="favcolor">Select your favorite color shorts:</label>
+        <input type="color" id="favcolor" name="favcolor">
+      </p>
+
+      <p>
+        <label>Biography: <textarea name="message"></textarea></label>
+      </p>
+
+      <p>
+        <label for="mylastrecipe">Upload your latest recipe:</label>
+        <input type="file" id="mylastrecipe" name="mylastrecipe">
+      </p>
+
+      <p>
+        <label for="recipe-website">Add your recipes website:</label>
+        <input type="url" id="recipe-website" name="recipe-website">
+      </p>
+
+      <p>
+        <input type="reset">
+      </p>
+
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </main>
+
+
+  <footer>
+
+
+  </footer>
+
+
+</body>
+
+</html>

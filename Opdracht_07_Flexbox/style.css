@@ -1,0 +1,184 @@
+body { 
+    color:#FFF;
+    background-color:#000;
+    padding: 50px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+  
+}
+
+nav {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav a {
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color:plum;
+}
+
+
+a:active {
+    text-decoration: underline;
+    color:purple;
+}
+
+
+
+
+.black-border {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+#powderblue {
+    background-color:powderblue;
+    padding: 20px;   
+    color: white;
+}
+
+
+
+main {
+    border: 3px dashed lightskyblue;
+    margin: 20px;
+    padding: 15px 25px 15px;
+    box-sizing: border-box;
+}
+
+footer {
+    border: 8px double lightseagreen;
+    margin: 20px 15px 20px;
+}
+
+aside {
+    border: 2px solid darkgrey;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 10px 15px 15px 10px;
+}
+
+
+
+#link-about {
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+#link-google {
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+#link-contact {
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+.navigation-links li {
+    display:inline;
+  }
+
+
+
+  .blog-items1 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+}  
+
+
+  
+.blogpost { 
+    width: 200px;
+    border: 1px solid white; 
+
+}
+
+
+.blog-items2 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+
+}  
+
+.blogpost2 { 
+    width: 200px;
+    border: 1px solid white; 
+    margin: 15px;
+    padding: 20px;
+}
+
+#bigger-midddle-post {
+    flex-grow: 2;
+}
+
+
+
+.blog-items3 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: flex-start;
+}  
+
+.blogpost3 { 
+    width: 200px;
+    border: 1px solid white; 
+    margin: 15px;
+    padding: 20px;
+}
+
+
+#other-align-blogpost {
+    align-self: flex-end;
+}
+
